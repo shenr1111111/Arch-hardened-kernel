@@ -5,3 +5,4 @@ steps
 2.sudo bash harden-kernel.sh
 
 this is NOT tested since i didnt have time yet
+also this is for zsh ONLY you can modify it freely tho
