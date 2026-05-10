@@ -6,3 +6,5 @@ steps
 
 this is NOT tested since i didnt have time yet
 also this is for zsh ONLY you can modify it freely tho
+
+EDIT: this script is functioning for me 
