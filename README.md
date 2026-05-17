@@ -9,5 +9,5 @@ also this is for zsh ONLY you can modify it freely tho
 
 EDIT: this script is functioning for me 
 if u get an kernel panic/error the run this command
-'ROOT_UUID=$(findmnt -n -o UUID /)
-sudo sed -i "s|^options.*|options root=UUID=$ROOT_UUID rw mitigations=auto vsyscall=none init_on_alloc=1 init_on_free=1 security=apparmor apparmor=1 pti=on|" /boot/loader/entries/*.conf'
+"ROOT_UUID=$(findmnt -n -o UUID /)
+sudo sed -i "s|^options.*|options root=UUID=$ROOT_UUID rw mitigations=auto vsyscall=none init_on_alloc=1 init_on_free=1 security=apparmor apparmor=1 pti=on|" /boot/loader/entries/*.conf"
